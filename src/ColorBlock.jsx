@@ -36,7 +36,6 @@ function ColorBlock() {
       boxShadow: '0 4px 30px rgba(0, 80, 180, 0.2)',
     }}>
 
-      {}
       <div style={{
         width: '220px',
         height: '220px',
@@ -45,7 +44,6 @@ function ColorBlock() {
         border: '3px solid #1e3a5f',
       }} />
 
-      {}
       <p style={{
         color: '#7eb8f7',
         fontSize: '1.2rem',
@@ -55,9 +53,6 @@ function ColorBlock() {
         {current.name}
       </p>
 
-   
-
-      {}
       <button
         onClick={handleColorChange}
         style={{
